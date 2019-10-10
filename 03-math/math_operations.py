@@ -3,7 +3,6 @@
 #
 # print numbers
 #
-
 myNumber = 125
 print("[print via str()]\n\t" + str(myNumber))
 print("[print via %% operator]\n\t%s" %myNumber)
@@ -20,10 +19,20 @@ myAdd = myInt1 + myInt2
 mySub = myInt1 - myInt2
 myMult = myInt1 * myInt2
 myDiv = myInt1 / myInt2
+myIntTruncate = 135//33
+myMod  = myInt2 % myInt1
 print(f"\t {myInt1} + {myInt2} = {myAdd}")
 print(f"\t {myInt1} - {myInt2} = {mySub}")
 print(f"\t {myInt1} * {myInt2} = {myMult}")
 print(f"\t {myInt1} / {myInt2} = {myDiv}")
+print(f"\t 135 // 33 = {myIntTruncate}")
+print(f"\t {myInt2} % {myInt1} = {myMod}")
+
+#integer truncate //
+# % 
+# **
+
+
 
 # underscores in numbers - long numbers you can group digits with underscors
 # python ignores uncerscores - 1000 = 10_00 = 1_000 
@@ -35,7 +44,9 @@ print("reset all calculated values")
 myAdd, mySub, myMult, myDiv = 0, 0, 0, 0
 print (f"myAdd = {myAdd}, mySub = {mySub}, myMult = {myMult}, myDiv = {myDiv}")
 
-# constants - only by notation through all capital letters.  There is not constant in python
+# Constants - only by notation through all capital letters.  There is not 
+# constant in python
 MAX_CONNEXTIONS = 5000
 print(MAX_CONNEXTIONS)
+
 

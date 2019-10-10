@@ -23,4 +23,3 @@ Targetted applications to learn how python does things
 1. regex
 1. bitwise
 1. file system basics
-1. 
