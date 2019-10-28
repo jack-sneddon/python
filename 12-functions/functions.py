@@ -17,6 +17,12 @@ def describe_pet(pet_name, animal_type = 'dog') :
     print(f"My {animal_type}'s name is {pet_name.title()}")
 
 #
+# type hints - float here is a hint, not enforced at runtime.
+#
+def double(number: float) -> float:
+    return 2 * number
+
+#
 # Return arguments
 #
 def get_formatted_name(first_name, last_name) :
@@ -82,10 +88,12 @@ def build_profile(first, last, **user_info) :
     user_info['last_name'] = last
     return user_info
 
-
-
-
 ######################
+
+# type hint, not enforced
+print(double(3.3))
+print(double("I am not a float"))
+
 greet_users("jesse")
 
 # positional arguments functions
